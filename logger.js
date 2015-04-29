@@ -12,8 +12,8 @@ module.exports =  (function() {
         logger.msgPath = msgPath;
         logger.errPath = errPath;
         
-        if (logger.msgPath === undefined) { logger.msgPath = './msg'; }
-        if (logger.errPath === undefined) { logger.errPath = './err'; }
+        if (logger.msgPath === undefined) { logger.msgPath = './'; }
+        if (logger.errPath === undefined) { logger.errPath = './'; }
         
         logger.ts = '';
         logger.ds = '';
