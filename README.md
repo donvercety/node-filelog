@@ -4,7 +4,7 @@ This module gives you the ability to log to files, it uses two logging methods: 
 
 #### Simple Usage:
 ```js
-var logger = require('./mylogger'),
+var logger = require('./node-filelog'),
     log = new logger();
 
 log.msg('test', 'this is a test log message'); // <163751[test]> this is a test log message
