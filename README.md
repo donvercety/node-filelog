@@ -18,7 +18,7 @@ By default the module uses the location of the file that is run from to log your
 log = new logger('/path/to/msg-folder', '/path/to/err-folder');
 ```
 
-The first parameter is the so called 'keyword', helpful for tagging different logs. If you just want the plain log with no keywords only time and log data use.
+The first parameter is the so called 'keyword', helpful for tagging different logs, for both log and err files. If you just want the plain log with no keywords only time and log data use.
 
 ```js
 log.useShortLog();
