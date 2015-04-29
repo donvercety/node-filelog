@@ -12,7 +12,7 @@ log.msg('test', 'this is a test log message'); // <163751[test]> this is a test 
 log.err('database', 'authentication error');   // <163751[database]> authentication error
 ```
 
-By default the module uses the two folders `msg`  and `err` located in the module directory to log your data by default. You can custom add your own folders to log just by adding two parameters when instantiating the logger object. ( **Folders must exist!** )
+By default the module uses the location of the file that is run from to log your data. You can custom add your own folders to log just by adding two parameters when instantiating the logger object. ( **Folders must exist!** )
 
 ```js
 log = new logger('/path/to/msg-folder', '/path/to/err-folder');
