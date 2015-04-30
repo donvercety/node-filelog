@@ -1,0 +1,28 @@
+{
+  "name": "node-filelog",
+  "version": "1.0.0",
+  "description": "Easily log your data to files, with this module.",
+  "main": "logger.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/donvercety/node-filelog.git"
+  },
+  "keywords": [
+    "log",
+    "logger",
+    "node",
+    "node-logger",
+    "logging",
+    "file",
+    "file-logger"
+  ],
+  "author": "Tommy Vercety",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donvercety/node-filelog/issues"
+  },
+  "homepage": "https://github.com/donvercety/node-filelog"
+}
