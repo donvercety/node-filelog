@@ -1,6 +1,6 @@
 {
   "name": "node-filelog",
-  "version": "1.0.1",
+  "version": "1.0.15",
   "description": "Easily log your data to files, with this module.",
   "main": "logger.js",
   "scripts": {
